@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    outline: none;
+}
+
+
+
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+
+.tudo-content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: .8rem;
+}
+
+
+.img-logo-mn {
+    height: 13rem;
+    width: 14rem;
+    border-radius: .5rem;
+    border: solid .3rem rgb(0, 0, 0);
+}
+
+.image-logo{
+    margin-left: 2.5rem;
+    margin-bottom: 1.3rem;
+}
+
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rebeccapurple;
+    height: 59rem;
+    width: 32rem;
+    border-radius: 2rem;
+    filter: drop-shadow(-.5rem .5rem 5rem #f1c2e657);
+    border: solid .3rem black;
+}
+
+.box-converter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.box-converter label{
+    flex-direction: column;
+    display: flex;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: aliceblue;
+}
+
+.box-converter select{
+    padding: .7rem;
+    width: 20rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+
+.box-converter input{
+    padding: .7rem;
+    width: 20rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+.box-converter .valor-conv{
+    margin-left: -16.2rem;
+    margin-bottom: -1rem;
+}
+
+.box-image-converter{
+border: solid .2rem;
+width: 20rem;
+text-align: center;
+}
+
+.conv-btn{
+    padding: .8rem;
+    width: 15rem;
+    border-radius: .7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    filter: drop-shadow(.5rem .3rem .8rem #110f0f);
+    border: none;
+    color: aliceblue;
+    background: rebeccapurple;
+    letter-spacing: .2rem;
+
+}
+
+.conv-btn:hover{
+    color: black;
+    background: #04eb64;
+    transition: .5s;
+}
+
+.conv-btn:active{
+    background: #011b0e;
+    transition: .2s;
+    color: white;
+}
+
+
+
+.box-image-converter{
+    border: solid .2rem rgb(0, 0, 5);
+    border-radius: .5rem;
+    padding: 1rem;
+    
+}
+
+.image-real-brasil{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.image-usd{
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.vector{
+    filter: drop-shadow(.1rem .2rem .8rem #000000);
+}
+
+figcaption{
+    color: white;
+    letter-spacing: .1rem;
+}
+
+h5{
+    color: #0a0909;
+    letter-spacing: .1rem;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
